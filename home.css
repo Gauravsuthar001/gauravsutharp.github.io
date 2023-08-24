@@ -399,9 +399,8 @@ html {
 
     .mine{
         flex-direction: column;
-        color: black;
+        color: white;
         background-image: none;
-        overflow: hidden;
     }
 
     .imgg img{
