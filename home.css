@@ -431,13 +431,12 @@ html {
 
     .foot-outer{
         flex-direction: column;
-        width: fit-content;
+        width: 100%;
 
     }
 
     .foot{
         flex-direction: column;
-        width: fit-content;
     }
     .social{
         margin-top: 20px;
@@ -476,5 +475,9 @@ html {
 
     .per,.ranges{
         display: none;
+    }
+
+        .langs{
+        margin-left: 30%;
     }
 }
