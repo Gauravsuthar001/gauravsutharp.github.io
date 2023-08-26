@@ -379,11 +379,11 @@ html {
         color: black;
         background-image: none;
         overflow: hidden;
-    }
 
-    .imgg img{
-        display: none;
-    }
+        .imgg img{
+            width:200px;
+            height:200px;
+        }
 
     .name{
         width: 350px;
