@@ -378,10 +378,10 @@ html {
         flex-direction: column;
         color: black;
         background-image: none;
-        overflow: hidden;
-
+    }
         .imgg img{
-            display:none;
+            width:200px;
+            height:200px;
         }
 
     .name{
