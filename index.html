@@ -1,225 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel = "icon" href = "icn (2).jpg" type = "image/x-icon">
-    <link rel="stylesheet" href="home.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <div class="nav" id="home">
-        <div class="logo">
-            <h3>Gaurav<span class="dt">.</span></h3>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 border-bottom navbar-static-top" id="nave">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">GAURAV</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#abt">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#edu">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prj">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skl">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
         </div>
-        <div class="hamburger" id="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
+      </div>
+    </nav>
+    <div class="im-con">
+      <img src="back-4.jpg" class="img-fluid" alt="...">
+      <div class="text-overlay">
+        <h2>Hello, I'm Gaurav Suthar</h2>
+        <h4>Web Developer / Programmer</h4>
+      </div>
+    </div>
+  </header>
+
+  <div class="head1" id="abt">
+    <h2>About</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="container-xl">
+    <p>Greetings! I'm currently pursuing my BCA (Bachelor of Computer Applications) and I'm truly captivated by the
+      realm of technology. My BCA journey has been a dynamic fusion of grasping theoretical concepts and applying them
+      to real-world scenarios. With a solid grasp of languages like Java, C++, and Python, I'm geared up to craft
+      innovative solutions.</p>
+
+    <p>
+      This portfolio is a glimpse into my expedition so far. It showcases my projects, each reflecting my distinctive
+      approach to problem-solving and my ardor for creativity. Proficient database management, software development, and
+      web expertise are some feathers in my cap. I'm not just embracing the digital era; I'm here to leave an indelible
+      mark. Let's dive in together and explore the synergy of technology!
+    </p>
+  </div>
+
+  <div class="head1" id="edu">
+    <h2>Education</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="edu">
+    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; ">
+      <div class="card-body">
+        <h5 class="card-title">BCA</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Maharaja Ganga Singh University</h6>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Enginnering College Bikaner</h6>
+        <p class="card-text">Batch : 2022 - 2025</p>
+      </div>
+    </div>
+
+    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; ">
+      <div class="card-body">
+        <h5 class="card-title">O'Level</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Nielit</h6>
+        <h6 class="card-subtitle mb-2 text-body-secondary">SSI Computer Education</h6>
+        <p class="card-text">Batch : 2021 - 2022</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="head1" id="prj">
+    <h2>Projects</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="proj">
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="p1.png" class="img-fluid rounded-start" alt="...">
         </div>
-        <div class="navlinks" id="navLinks">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#project">Projects</a>
-            <a href="#skill">Skills</a>
-            <a href="#connnc">Contact</a>
-            </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Studio Website</h5>
+            <p class="card-text">Using HTML, CSS, JS and Bootstrap</p>
+          </div>
         </div>
+      </div>
+    </div>
 
-        
-        <div class="outer-box">
-            
-            <div class="mine">
-                <div class="name">
-                    <h5>Web Developer</h5>
-                    <h4>I'm Gaurav Suthar</h4>
-                    <h5>"Showcasing my journey through creativity
-                        and innovation."</h5>
-                </div>
-                <div class="imgg">
-                    <img src="./images/my.png" alt="">    
-                </div>
-            </div>
-
-                <div class="head-1" id="about">
-                    <h3>About Me</h3>
-                    <div class="line"></div>
-                </div>
-    
-            <div class="outer">
-                <div class="box-1">
-                    <p>Greetings! I'm a dedicated computer science student fascinated by the art of coding and its
-                    transformative power. Armed with a strong foundation in programming languages and data structures, I
-                    thrive on untangling complex challenges. From developing sleek software solutions to diving into
-                    cybersecurity, I'm on a continuous quest to learn and innovate.</p>
-        
-                    <p>Beyond my coursework, I'm an avid tech explorer with a keen interest in AI and machine learning. I've
-                    honed my skills through personal projects and collaborations, and I'm excited to contribute to projects
-                    that push the boundaries of what's possible. Whether it's a line of code or an intricate algorithm, I'm
-                    driven to make an impact and create solutions that matter.</p>
-        
-                    <p>In a field that's constantly evolving, I'm committed to staying at the forefront of technology. I'm
-                    always open to connecting with fellow enthusiasts, mentors, and collaborators who share the same zeal
-                    for innovation. Let's code a brighter future together!</p>
-                </div>
-            </div>
-
-            <!-- Education Section  -->
-            <div class="head-1" id="education">
-                <h3>Education</h3>
-                <div class="line"></div>
-            </div>
-            <div class="outer">
-                <div class="box-1">
-                    <div class="box4">
-                        <h4>Maharaja Ganga Singh University</h4>
-                        <h5>Engineering College Bikaner</h5>
-                        <div class="qua">
-                            <h5>Batch 2022 to 2025</h5>
-                            <h5>Bachelor of Computer Application {BCA}</h5>
-                        </div>
-                    </div>
-                    <div class="box4">
-                        <h4>NIELIT</h4>
-                        <h5>SSI Computer Education</h5>
-                        <div class="qua">
-                            <h5>Batch 2021 to 2022</h5>
-                            <h5>O'Level</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="head-1" id="project">
-                <h3>Projects</h3>
-                <div class="line"></div>
-            </div>
-
-            <div class="outer">
-                <div class="box-1">
-                    <div class="box6">
-                        <img src="./images/p1.png" alt="">
-                        <div class="decs">
-                            <h3>Photography Studio Website</h3>
-                            <h5>Using HTML, CSS, JS, BootStrap</h5>
-                        </div>
-                    </div>
-        
-                    <div class="box6">
-                        <img src="./images/p2.png" alt="">
-                        <div class="decs">
-                            <h3>Computer Shop Website</h3>
-                            <h5>Using HTML, CSS, JS, MongoDB</h5>
-                        </div>
-                    </div>
-        
-                    <div class="box6">
-                        <img src="./images/p3.png" alt="">
-                        <div class="decs">
-                            <h3>Coding Tutorial Website</h3>
-                            <h5>Using HTML, CSS, JS, BootStrap,Node.JS</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="head-1" id="skill">
-                <h4>Skills</h4>
-                <div class="line"></div>
-            </div>
-
-
-            <div class="outer-last" id="boxx">
-
-                <div class="box-10">
-                    <div class="langs">
-                        <div class="lan">C</div>
-                        <div class="lan">C++</div>
-                        <div class="lan">Python</div>
-                        <div class="lan">Java</div>
-                        <div class="lan">JavaScript</div>
-                        <div class="lan">HTML</div>
-                        <div class="lan">CSS</div>
-                        <div class="lan">MySql</div>
-                    </div>
-                </div>
-            </div>
-                        <div class="head-1" id="skill">
-                            <h4>Other Skills</h4>
-                            <div class="line"></div>
-                        </div>
-
-                    <div class="outer-last" id="boxx1">
-                        <div class="box-10">
-                            <div class="langs">
-                                <div class="lan">Canva</div>
-                                <div class="lan">Adobe Photoshop</div>
-                                <div class="lan">Filmora</div>
-                                <div class="lan">Premiere Pro</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="head-1" id="skill">
-                        <h4>Contact</h4>
-                        <div class="line"></div>
-                    </div>
-
-
-                        <div class="contacts" id="connnc">
-
-                            <a href="tel:+919660564367">
-                                <div class="con1">
-                                <i class="fa-solid fa-phone fa-2xl" ></i>
-                                <h4>Phone</h4>
-                                </div>
-                            </a>
-
-                            <a href="whatsapp://send?phone=+919660564367">
-                                <div class="con1">
-                                <i class="fa-brands fa-whatsapp fa-2xl" ></i>
-                                <h4>WhatsApp</h4>
-                                </div>
-                            </a>
-
-                            <a href="https://instagram.com/gauravsuthar001?igshid=ZGUzMzM3NWJiOQ==">
-                                <div class="con1">
-                                    <i class="fa-brands fa-instagram fa-2xl" ></i>
-                                    <h4>Instgram</h4>
-                                </div>
-                            </a>
-
-                            <a href="https://www.linkedin.com/in/gaurav-suthar-53936825a">
-                                <div class="con1">
-                                    <i class="fa-brands fa-linkedin-in fa-2xl" ></i>
-                                    <h4>Linkdin</h4>
-                                </div>
-                            </a>
-
-                            <a href="https://www.youtube.com/@codecadets01">
-                                <div class="con1">
-                                    <i class="fa-brands fa-youtube fa-2xl"></i>
-                                    <h4>Youtube</h4>
-                                </div>
-                            </a>
-                        </div>
-
-            <div class="foot-outer">
-                <div class="foot">
-                    <div class="contact">
-                        <h5>Made with ❤️ By Gaurav Suthar</h5>
-                        <h5>Copyright © Gaurav Suthar</h5>
-                    </div>
-                </div>
-            </div>
-
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="p2.png" class="img-fluid rounded-start" alt="...">
         </div>
-        <script src="dark.js"></script>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Computer Shop Website</h5>
+            <p class="card-text">Using HTML, CSS, JS and Bootstrap</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="p3.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Coding Tutorial Website</h5>
+            <p class="card-text">Using HTML, CSS, JS and Bootstrap</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="head1" id="skl">
+    <h2>Skills</h2>
+    <div class="line"></div>
+  </div>
+<div class=" box-outer">
+
+  <div class="box8">
+    <div class="box-11">
+      <div class="lan-head">Programming
+        <div class="ln"></div>
+      </div>
+      <div class="lan">C</div>
+      <div class="lan">C++</div>
+      <div class="lan">Python</div>
+      <div class="lan">Java</div>
+      <div class="lan">MySql</div>
+    </div>
+    <div class="box-11">
+      <div class="lan-head">Web Development
+        <div class="ln"></div>
+      </div>
+      <div class="lan">HTML</div>
+      <div class="lan">CSS</div>
+      <div class="lan">JavaScript</div>
+      <div class="lan">BootStrap</div>
+      <div class="lan">NodeJS</div>
+    </div>
+  </div>
+</div>
+
+<div class="head1">
+  <h2>Feel free to Connect </h2>
+  <div class="line"></div>
+</div>
+
+<div class="contact">
+  <div class="mail">
+    <h4 class="sub-head">Mail Us: </h4>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Email">
+    <input type="text" placeholder="Message">
+    <div class="send-btn">Send!</div>
+  </div>
+
+  <div class="follow">
+    <h4 class="sub-head">Follow Me On:
+    </h4>
+
+    <div class="social">
+      <div class="so-link">
+        <a href="https://www.linkedin.com/in/gaurav-suthar-53936825a" target="_blank"><i class="fa-brands fa-linkedin" style="color: #5273ad;"></i></a>
+        <a href="https://instagram.com/gauravsuthar001?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram" style="color: #5273ad;"></i></a>
+        <a href="https://youtube.com/@codecadets01" target="_blank"><i class="fa-brands fa-youtube" style="color: #5273ad;"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp" style="color: #5273ad;"></i></a>
+      </div>
+
+      <div class="num">
+        <p>Call On: <a href="tel: 9660564367">9660564367</a> </p>
+        <p>E-Mail: <a href="">gauravsuthar01bkn@gmail.com</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="foot">
+    <div class="content-foot">
+      
+      <div class="logoo">
+        <a href="index.html">GAURAV</a>
+      </div>
+
+      <div class="connn">
+        <p>Made With ❤️ By Gaurav Suthar <br>
+          Copyright Gaurav Suthar</p>
+      </div>
+      
+      <div class="soc">
+        <a href="https://www.linkedin.com/in/gaurav-suthar-53936825a" target="_blank"><i class="fa-brands fa-linkedin" style="color: #5273ad;"></i></a>
+        <a href="https://instagram.com/gauravsuthar001?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram" style="color: #5273ad;"></i></a>
+        <a href="https://youtube.com/@codecadets01" target="_blank"><i class="fa-brands fa-youtube" style="color: #5273ad;"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp" style="color: #5273ad;"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
