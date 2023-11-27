@@ -2,250 +2,665 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="home.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 border-bottom navbar-static-top" id="nave">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">GAURAV</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
-            <li class="nav-item">
-              <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#abt">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#edu">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#prj">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skl">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#con">Contact</a>
-            </li>
+    <!-- STYLE SWITCHER -->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" id="toggler">
+    <input type="checkbox" id="day-night">
 
-          </ul>
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Theme Color</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
         </div>
-      </div>
-    </nav>
-    <div class="im-con">
-      <img src="./images/back-4.jpg" class="img-fluid" alt="...">
-      <div class="text-overlay">
-        <h2>Hello, I'm Gaurav Suthar</h2>
-        <h4>Web Developer / Programmer</h4>
-      </div>
-    </div>
-  </header>
-
-  <div class="head1" id="abt">
-    <h2>About</h2>
-    <div class="line"></div>
-  </div>
-
-  <div class="container-xl">
-    <p>Greetings! I'm currently pursuing my BCA (Bachelor of Computer Applications) and I'm truly captivated by the
-      realm of technology. My BCA journey has been a dynamic fusion of grasping theoretical concepts and applying them
-      to real-world scenarios. With a solid grasp of languages like Java, C++, and Python, I'm geared up to craft
-      innovative solutions.</p>
-
-    <p>
-      This portfolio is a glimpse into my expedition so far. It showcases my projects, each reflecting my distinctive
-      approach to problem-solving and my ardor for creativity. Proficient database management, software development, and
-      web expertise are some feathers in my cap. I'm not just embracing the digital era; I'm here to leave an indelible
-      mark. Let's dive in together and explore the synergy of technology!
-    </p>
-  </div>
-
-  <div class="head1" id="edu">
-    <h2>Education</h2>
-    <div class="line"></div>
-  </div>
-
-  <div class="edu">
-    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; ">
-      <div class="card-body">
-        <h5 class="card-title">BCA</h5>
-        <h6 class="card-subtitle mb-2 text-body-secondary">Maharaja Ganga Singh University</h6>
-        <h6 class="card-subtitle mb-2 text-body-secondary">Enginnering College Bikaner</h6>
-        <p class="card-text">Batch : 2022 - 2025</p>
-      </div>
     </div>
 
-    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; ">
-      <div class="card-body">
-        <h5 class="card-title">O'Level</h5>
-        <h6 class="card-subtitle mb-2 text-body-secondary">Nielit</h6>
-        <h6 class="card-subtitle mb-2 text-body-secondary">SSI Computer Education</h6>
-        <p class="card-text">Batch : 2021 - 2022</p>
-      </div>
-    </div>
-  </div>
+    <!-- HEADER  -->
+    <div class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Gaurav</a>
+
+            <input type="checkbox" id="nav-toggler">
+
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#qualification" class="nav__link">Experience</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#works" class="nav__link">Portfolio</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
 
 
-  <div class="head1" id="prj">
-    <h2>Projects</h2>
-    <div class="line"></div>
-  </div>
-
-  <div class="proj">
-
-    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./images/p1.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Studio Website</h5>
-            <p class="card-text">Using HTML, CSS, JS and Bootstrap</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./images/p2.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Computer Shop Website</h5>
-            <p class="card-text">Using HTML, CSS, JS and Bootstrap</p>
-          </div>
-        </div>
-      </div>
+        </nav>
     </div>
 
-    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./images/p3.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Coding Tutorial Website</h5>
-            <p class="card-text">Using HTML, CSS, JS and Bootstrap</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="head1" id="skl">
-    <h2>Skills</h2>
-    <div class="line"></div>
-  </div>
-<div class=" box-outer">
+    <!-- MAIN  -->
 
-  <div class="box8">
-    <div class="box-11">
-      <div class="lan-head">Programming
-        <div class="ln"></div>
-      </div>
-      <div class="lan">C</div>
-      <div class="lan">C++</div>
-      <div class="lan">Python</div>
-      <div class="lan">Java</div>
-      <div class="lan">MySql</div>
-    </div>
-    <div class="box-11">
-      <div class="lan-head">Web Development
-        <div class="ln"></div>
-      </div>
-      <div class="lan">HTML</div>
-      <div class="lan">CSS</div>
-      <div class="lan">JavaScript</div>
-      <div class="lan">BootStrap</div>
-      <div class="lan">NodeJS</div>
-    </div>
-  </div>
-</div>
+    <main class="main">
+        <!-- HOME  -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__small">Hello</span>
+                    <h1 class="home__title"> <span>I'm</span> Gaurav a Web <br/> <span>Developer & Designer</span></h1>
 
-<div class="head1">
-  <h2>Feel free to Connect </h2>
-  <div class="line"></div>
-</div>
+                    <p class="home__description">
+                        Transforming ideas into visually striking, user-centric websites. A fusion of code mastery and design finesse, delivering seamless, impactful digital solutions. Crafting unique online experiences that resonate and captivate audiences.
+                    </p>
 
-<div class="contact" id="con">
-  <div class="mail">
-    <h4 class="sub-head">Mail Us: </h4>
-    <input type="text" placeholder="Name">
-    <input type="text" placeholder="Email">
-    <input type="text" placeholder="Message">
-    <div class="send-btn">Send!</div>
-  </div>
+                    <div class="home__btns">
+                        <a href="#contact" class="btn">Hire Me</a>
+                        <a href="#portfolio" class="btn btn--transparent">Portfolio</a>
+                    </div>
+                </div>
 
-  <div class="follow">
-    <h4 class="sub-head">Follow Me On:
-    </h4>
+                <div class="home__img-wrapper">
+                    <img src="/images/my-5.png" alt="" class="home__img">
+                </div>
+            </div>
+        </section>
 
-    <div class="social">
-      <div class="so-link">
-        <a href="https://www.linkedin.com/in/gaurav-suthar-53936825a" target="_blank"><i class="fa-brands fa-linkedin" style="color: #5273ad;"></i></a>
-        <a href="https://instagram.com/gauravsuthar001?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram" style="color: #5273ad;"></i></a>
-        <a href="https://youtube.com/@codecadets01" target="_blank"><i class="fa-brands fa-youtube" style="color: #5273ad;"></i></a>
-        <a href=""><i class="fa-brands fa-whatsapp" style="color: #5273ad;"></i></a>
-      </div>
+        <!-- ABOUT  -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="./images/about-img.jpg" alt="" class="about__img">
+                    <img src="./images/about-img.jpg" alt="" class="about__img">
+                    <img src="./images/about-img.jpg" alt="" class="about__img">
+                    <img src="./images/about-img.jpg" alt="" class="about__img">
+                </div>
 
-      <div class="num">
-        <p>Call On: <a href="tel: 9660564367">9660564367</a> </p>
-        <p>E-Mail: <a href="">gauravsuthar01bkn@gmail.com</a> </p>
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="about__content" data-title="Services">
+                    <h2 class="section__title">I'm Gaurav Suthar, a visual UI/UX <br/> Designer and Web Developer</h2>
 
-<footer>
-  <div class="foot">
-    <div class="content-foot">
-      
-      <div class="logoo">
-        <a href="index.html">GAURAV</a>
-      </div>
+                    <p class="about__description">Hey there, I'm Gaurav Suthar, dedicated to the art of blending creativity and technology. As a Visual UI/UX Designer and Web Developer, I sculpt digital landscapes that marry beauty and functionality. My mission is to craft intuitive, visually stunning websites that leave a lasting impact.</p>
 
-      <div class="connn">
-        <p>Made With ❤️ By Gaurav Suthar <br>
-          Copyright Gaurav Suthar</p>
-      </div>
-      
-      <div class="soc">
-        <a href="https://www.linkedin.com/in/gaurav-suthar-53936825a" target="_blank"><i class="fa-brands fa-linkedin" style="color: #5273ad;"></i></a>
-        <a href="https://instagram.com/gauravsuthar001?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram" style="color: #5273ad;"></i></a>
-        <a href="https://youtube.com/@codecadets01" target="_blank"><i class="fa-brands fa-youtube" style="color: #5273ad;"></i></a>
-        <a href=""><i class="fa-brands fa-whatsapp" style="color: #5273ad;"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name: </h3>
+                            <span class="data__descrition">Gaurav Suthar</span>
+                        </li>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-    crossorigin="anonymous"></script>
+                        <li class="data__item">
+                            <h3 class="data__title">Age: </h3>
+                            <span class="data__descrition">19</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">From: </h3>
+                            <span class="data__descrition">Bikaner, Rajasthan</span>
+                        </li>
+
+                        <li class="data__item">
+                            <h3 class="data__title">Email: </h3>
+                            <span class="data__descrition about__link">gauravsuthar01bkn@gmail.com</span>
+                        </li>
+                    </ul>
+
+                    <div class="about__button">
+                        <a href="" class="btn">Download CV</a>
+
+                        <div class="about__social-links">
+                            <a href="https://github.com/Gauravsuthar001" target="_blank" class="about__social-link"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/gauravsuthar001/#" target="_blank" class="about__social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gaurav-suthar-53936825a/" target="_blank" class="about__social-link"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="" class="about__social-link"><i class="fa-brands fa-square-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUALIFICATION  -->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title title-center" data-title="My Journey">
+                Qualification
+            </h2>
+
+            <div class="resume__container container grid">
+                <div class="resume__group">
+                    <h3 class="resume__heading">Education</h3>
+                    <div class="resume__items">
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Udemy</h3>
+                                <span class="resume__icon">-</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Web Developement</h3>
+                                    <span class="resume__date">2022 - 2023</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Web Development via Udemy: A comprehensive dive into coding languages, frameworks, and design principles. Hands-on learning, crafting functional websites from scratch with industry-relevant skills.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">NIELIT</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">O' Level</h3>
+                                    <span class="resume__date">2021 - 2022</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    DOEACC 'O' Level Course is a foundation Course of DOEACC Society in the field of Information Technology. The duration of the course is 1 Year (2 semesters of 6 months each).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Schooling</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">High School</h3>
+                                    <span class="resume__date">2019 - 2021</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    High school was my exploratory phase, nurturing passions and honing vital skills. It was a time of diverse learning, fostering friendships, and laying the groundwork for my future endeavors.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume__group">
+                    <h3 class="resume__heading">Experience</h3>
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Project Head</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Engineering College, bikaner</h3>
+                                    <span class="resume__date">2023 PRESENT</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    As a Web Project Manager, I orchestrate digital ventures, aligning teams and timelines for seamless execution. Balancing technical expertise with leadership, I drive projects to success through strategic planning and collaboration.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Exploring Innovations</h3>
+                                <span class="resume__icon">-</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">My Creative Ventures</h3>
+                                    <span class="resume__date">2022 - 2023</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Welcome to my realm of personal initiatives—a showcase of my passion-driven projects, where innovation meets creativity. Each endeavor reflects my dedication to pushing boundaries, experimenting, and bringing unique visions to life.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Web Developer</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Fiverr.com</h3>
+                                    <span class="resume__date">August, 2023</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    As a freelance website creator, I craft tailored digital spaces. From design to development, I bring visions to life, ensuring functional, visually engaging websites that resonate with clients and captivate their audiences.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- SERVICES  -->
+        <section class="services section" id="services">
+            <h2 class="section__title title-center" data-title="Services">
+                What I do for you
+            </h2>
+
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+                    <h3 class="services__title">UI/UX Design</h3>
+                    <p class="services__description">
+                        Crafting intuitive, visually captivating experiences through strategic UI/UX design expertise.
+                    </p>
+
+                    <span class="services__no">01</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-laptop services__icon"></i>
+
+                    <h3 class="services__title">Web Developement</h3>
+                    <p class="services__description">
+                        Building dynamic, functional websites with expertise in diverse coding languages and frameworks.
+                    </p>
+
+                    <span class="services__no">02</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-line services__icon"></i>
+
+                    <h3 class="services__title">Research & Analysis</h3>
+                    <p class="services__description">
+                        Analyzing data, trends, and insights to drive informed decisions and strategic innovations
+                    </p>
+
+                    <span class="services__no">03</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+                    <h3 class="services__title">LOREM</h3>
+                    <p class="services__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur commodi a eos earum. Quos.
+                    </p>
+
+                    <span class="services__no">04</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-laptop services__icon"></i>
+
+                    <h3 class="services__title">LOREM</h3>
+                    <p class="services__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur commodi a eos earum. Quos.
+
+                    </p>
+
+                    <span class="services__no">05</span>
+                </div>
+
+                <div class="services__item">
+                    <i class="fa-solid fa-chart-line services__icon"></i>
+
+                    <h3 class="services__title">LOREM</h3>
+                    <p class="services__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur commodi a eos earum. Quos.
+
+                    </p>
+
+                    <span class="services__no">06</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS  -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title title-center" data-title="My Talent">
+                Professional Skills
+            </h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">PHP</h3>
+                        <span class="skills__no">85 %</span>
+                    </div>
+
+                    <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates ipsum, molestias nam sint aut!</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 85%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">JavaScript</h3>
+                        <span class="skills__no">75 %</span>
+                    </div>
+
+                    <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates ipsum, molestias nam sint aut!</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 75%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">WordPress</h3>
+                        <span class="skills__no">90 %</span>
+                    </div>
+
+                    <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates ipsum, molestias nam sint aut!</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 90%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Python</h3>
+                        <span class="skills__no">75 %</span>
+                    </div>
+
+                    <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates ipsum, molestias nam sint aut!</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 75%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">React</h3>
+                        <span class="skills__no">70 %</span>
+                    </div>
+
+                    <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates ipsum, molestias nam sint aut!</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 70%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Adobe XD</h3>
+                        <span class="skills__no">80 %</span>
+                    </div>
+
+                    <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates ipsum, molestias nam sint aut!</p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 80%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO  -->
+        <section class="works section" id="works">
+            <h2 class="section__title title-center" data-title="My Portfolio">
+                Recent Works
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="./images/project-img-1.jpg" alt="" class="work__img">
+
+                    <div class="work__detailes">
+                        <h3 class="work__title">Web Design</h3>
+                        <span class="work__description">This is a short Description</span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./images/project-img-2.jpg" alt="" class="work__img">
+
+                    <div class="work__detailes">
+                        <h3 class="work__title">Web Design</h3>
+                        <span class="work__description">This is a short Description</span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./images/project-img-3.jpg" alt="" class="work__img">
+
+                    <div class="work__detailes">
+                        <h3 class="work__title">Web Design</h3>
+                        <span class="work__description">This is a short Description</span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./images/project-img-4.jpg" alt="" class="work__img">
+
+                    <div class="work__detailes">
+                        <h3 class="work__title">Web Design</h3>
+                        <span class="work__description">This is a short Description</span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./images/project-img-5.jpg" alt="" class="work__img">
+
+                    <div class="work__detailes">
+                        <h3 class="work__title">Web Design</h3>
+                        <span class="work__description">This is a short Description</span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="./images/project-img-6.jpg" alt="" class="work__img">
+
+                    <div class="work__detailes">
+                        <h3 class="work__title">Web Design</h3>
+                        <span class="work__description">This is a short Description</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials section">
+            <h2 class="section__title title-center" data-title="Testimonials">
+                What My Clients Says
+            </h2>
+
+            <div class="testimonials__container container grid">
+                <div class="testimonials__item">
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur, odio iusto a reiciendis 
+                        similique repudiandae, laboriosam aperiam quia nisi impedit nulla ex placeat numquam expedita amet, dolor officiis dicta?
+                    </p>
+
+                    <div class="testimonials__data">
+                        <img src="./images/testimonial-1.jpg" alt="" class="testimonials__img">
+                        
+                        <div>
+                            <h3 class="testimonials__name">John Williomsan</h3>
+                            <span class="testimonials__identity">Seattle, Washington</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials__item">
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur, odio iusto a reiciendis 
+                        similique repudiandae, laboriosam aperiam quia nisi impedit nulla ex placeat numquam expedita amet, dolor officiis dicta?
+                    </p>
+
+                    <div class="testimonials__data">
+                        <img src="./images/testimonial-2.jpg" alt="" class="testimonials__img">
+                        
+                        <div>
+                            <h3 class="testimonials__name">John Williomsan</h3>
+                            <span class="testimonials__identity">Seattle, Washington</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT  -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="Get in Touch">
+                Contact Me
+            </h2>
+
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Us</h3>
+                            <span class="contact__data">+919660564367</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email Us</h3>
+                            <span class="contact__data">gauravsuthar01bkn@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact__form" action="">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control">
+                        </div>
+
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" class="input__control">
+                        </div>
+                    </div>
+
+                    <div class="form__input">
+                        <input type="text" placeholder="Subject" class="input__control">
+                    </div>
+
+                    <div class="form__input">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="input__control textarea"></textarea>
+                    </div>
+
+                    <button class="btn contact__btn">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+                    <div class="footer__container container">
+                        <p class="footer__copyright">&copy; 2023 Gaurav. All Rights Reserved</p>
+    
+                        <div class="footer__social-links">
+                            <a href="https://github.com/Gauravsuthar001" target="_blank" class="footer__social-link"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/gauravsuthar001/#" target="_blank" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gaurav-suthar-53936825a/" target="_blank" class="footer__social-link"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="" class="footer__social-link"><i class="fa-brands fa-square-facebook"></i></a>
+                        </div>
+                    </div>
+    </footer>
 </body>
 
 </html>
