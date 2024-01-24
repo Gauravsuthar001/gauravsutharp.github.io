@@ -465,6 +465,10 @@ input[type="checkbox"]{
     transition: all 0.5s ease;
 }
 
+span a{
+    color: rgb(48, 48, 228);
+}
+
 .btn--transparent{
     background-color: transparent;
     color: var(--first-color);
